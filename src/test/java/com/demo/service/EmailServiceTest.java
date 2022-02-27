@@ -40,7 +40,7 @@ public class EmailServiceTest {
         order.setCustomerNotified(false);
         throw new RuntimeException("An Exception Occurred");
     }
-	 * 
+	 
 	 */
 	
 	@Test
