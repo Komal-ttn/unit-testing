@@ -19,7 +19,7 @@ public class OrderService {
     }
 
     void placeOrder(Order order) {
-        double priceWithTax = order.getPrice() * 20 / 100;
+        double priceWithTax = order.getPrice() *( 20 / 100);
         order.setPriceWithTax(priceWithTax);
         emailService.sendEmail(order);
         order.setCustomerNotified(true);
